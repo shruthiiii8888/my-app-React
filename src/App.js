@@ -15,6 +15,7 @@ function App() {
           setInput(res.toString());
         } catch (error) {
           setResult('Error');
+          setInput("error");
         }
         break;
       case 'C':
